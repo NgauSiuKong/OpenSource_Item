@@ -1,0 +1,422 @@
+[ 2017-02-10T09:46:56+08:00 ] ::1 /VRAppItem/index.php/backstage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:46:56+08:00 ] ::1 /VRAppItem/index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:48:10+08:00 ] ::1 /VRAppItem/index.php/Backstage/Facility
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: field D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: join D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\FacilityController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_facility` WHERE `fid` = 0 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\Install\wamp\www\VRAppItem\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `vr_facility` WHERE `fid` = 0 ORDER BY oid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-10T09:48:13+08:00 ] ::1 /VRAppItem/index.php/Backstage/Panorama
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\PanoramaController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: limit D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\PanoramaController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_panorama` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT vr_panorama.id as vpid,vr_panorama.status as vpstatus,from_unixtime(vr_panorama.addtime,'%Y/%m/%d %H:%i:%s') as vpaddtime,vu.username as publisher,if(`limit`=0,'普通视频','会员视频')`limit`,`name`,`subname`,`describe`,`click`,`imageurl` FROM `vr_panorama` left join vr_user vu on vr_panorama.publisherid=vu.id  ORDER BY vpid desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: c_fid D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\e2cdc8a980466a9df1fe5ccc8782893f.php 第 38 行.
+NOTIC: [8] Undefined variable: list D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\e2cdc8a980466a9df1fe5ccc8782893f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:48:14+08:00 ] ::1 /VRAppItem/index.php/Backstage/Video/vidRecList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0010s ]
+ERR: 非法操作:vidRecList
+
+[ 2017-02-10T09:48:15+08:00 ] ::1 /VRAppItem/index.php/Backstage/Panorama
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\PanoramaController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: limit D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\PanoramaController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_panorama` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT vr_panorama.id as vpid,vr_panorama.status as vpstatus,from_unixtime(vr_panorama.addtime,'%Y/%m/%d %H:%i:%s') as vpaddtime,vu.username as publisher,if(`limit`=0,'普通视频','会员视频')`limit`,`name`,`subname`,`describe`,`click`,`imageurl` FROM `vr_panorama` left join vr_user vu on vr_panorama.publisherid=vu.id  ORDER BY vpid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: c_fid D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\e2cdc8a980466a9df1fe5ccc8782893f.php 第 38 行.
+NOTIC: [8] Undefined variable: list D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\e2cdc8a980466a9df1fe5ccc8782893f.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:48:17+08:00 ] ::1 /VRAppItem/index.php/Backstage/Video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: limit D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\VideoController.class.php 第 88 行.
+NOTIC: [8] Undefined variable: join D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_video` WHERE `recycle` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `v_id`,`v_cid`,`v_title`,`v_describe`,`v_type`,`v_data1`,`v_data2`,`v_firstimgurl`,`v_secondimgurl`,`limit`,from_unixtime(v_addtime,'%Y-%m-%d %H:%i:%s')v_addtime,`v_status`,`v_publisherid`,`playnum`,`recycle` FROM `vr_video` WHERE `recycle` = 1 ORDER BY v_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `l_id`,`l_title` FROM `vr_label`  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_title` FROM `vr_class` WHERE ( c_fid != 0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: c_fid D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\922566dafd4996b988b72a04b17e550b.php 第 42 行.
+NOTIC: [8] Undefined index: c_fid D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\922566dafd4996b988b72a04b17e550b.php 第 42 行.
+NOTIC: [8] Undefined index: c_fid D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\922566dafd4996b988b72a04b17e550b.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:48:18+08:00 ] ::1 /VRAppItem/index.php/Backstage/Video/recycleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: limit D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\VideoController.class.php 第 336 行.
+NOTIC: [8] Undefined variable: join D:\Install\wamp\www\VRAppItem\VRAppItem\Backstage\Controller\VideoController.class.php 第 336 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_video` WHERE `recycle` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `v_id`,`v_cid`,`v_title`,`v_describe`,`v_type`,`v_data1`,`v_data2`,`v_firstimgurl`,`v_secondimgurl`,`limit`,from_unixtime(v_addtime,'%Y-%m-%d %H:%i:%s')v_addtime,`v_status`,`v_publisherid`,`playnum`,`recycle` FROM `vr_video` WHERE `recycle` = 0 ORDER BY v_addtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `l_id`,`l_title` FROM `vr_label`  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_title` FROM `vr_class` WHERE ( c_fid != 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\91442d9d47dbe87d4bc64d516fb7d79c.php 第 18 行.
+NOTIC: [8] Undefined variable: list D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\91442d9d47dbe87d4bc64d516fb7d79c.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-10T09:48:22+08:00 ] ::1 /VRAppItem/index.php/Backstage/Label
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0020s ]
+SQL: SELECT `l_id`,`l_title`,`l_oid`,`l_status`,from_unixtime(l_addtime,'%Y-%m-%d %H:%i:%s')l_addtime FROM `vr_label` ORDER BY l_oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 23  [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 18  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 17  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 16  [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 11  [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `cid` FROM `vr_lab_cla` WHERE `lid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_title` FROM `vr_class` WHERE ( c_fid != 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 20 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\d51a778c1d72186fdee2a20c1d4777fa.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-10T09:48:26+08:00 ] ::1 /VRAppItem/index.php/Backstage/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0020s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 0 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 1 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 4 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 26 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 17 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 16 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 15 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 14 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 13 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 12 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 11 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 10 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 8 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 7 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 6 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 5 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 2 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 25 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 20 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 21 ORDER BY oid desc  [ RunTime:0.0010s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 3 ORDER BY oid desc  [ RunTime:0.0000s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 27 ORDER BY oid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: show D:\Install\wamp\www\VRAppItem\VRAppItem\Runtime\Cache\Backstage\5dd8ca24044f2c43a9da21692289c5fb.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-10T09:48:38+08:00 ] ::1 /VRAppItem/index.php/Backstage/CarouselFigure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_carouselfigure` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vr_carouselfigure` LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

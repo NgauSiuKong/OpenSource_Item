@@ -1,0 +1,350 @@
+[ 2017-03-11T00:43:22+08:00 ] 101.226.68.200 /index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-03-11T01:30:35+08:00 ] 101.226.64.174 /index.php/Backstage/Video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: limit /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/VideoController.class.php 第 89 行.
+NOTIC: [8] Undefined variable: join /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/VideoController.class.php 第 89 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_video` WHERE `recycle` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `v_id`,`v_cid`,`v_title`,`v_describe`,`v_type`,`v_data1`,`v_data2`,`v_firstimgurl`,`v_secondimgurl`,`limit`,from_unixtime(v_addtime,'%Y-%m-%d %H:%i:%s')v_addtime,`v_status`,`v_publisherid`,`playnum`,`recycle` FROM `vr_video` WHERE `recycle` = 1 ORDER BY v_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 7  [ RunTime:0.0003s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `lid` FROM `vr_vid_lab` WHERE `vid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `l_id`,`l_title` FROM `vr_label`  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_title` FROM `vr_class` WHERE ( c_fid != 0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: c_fid /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/922566dafd4996b988b72a04b17e550b.php 第 42 行.
+NOTIC: [8] Undefined index: c_fid /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/922566dafd4996b988b72a04b17e550b.php 第 42 行.
+NOTIC: [8] Undefined index: c_fid /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/922566dafd4996b988b72a04b17e550b.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-11T02:11:44+08:00 ] 101.226.66.174 /VRAppItem/index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-03-11T02:18:09+08:00 ] 101.226.68.215 /index.php/Backstage?nsukey%253DsUbF1LyBpbgzQ0tc%25252BCsLSeqLqYk4s1fmPMhdaHOZDpTcf73MjukAMFU47oKNIUWsguG2XB5MRkl8WYTC0GC%25252BaXNpenrDS6RugaZqVlVqC%25252FLSL0MsRPTm8nXnLDp2SXJvI3V4JUJQ8%25252FeAxwAXjlHV8WxmiBF%25252BRcDI6C8OwuOBTzheEY5FcSiRT8MqPoSIT02p
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-03-11T02:18:18+08:00 ] 101.226.33.240 /index.php/Backstage?nsukey%253DsUbF1LyBpbgzQ0tc%25252BCsLSeqLqYk4s1fmPMhdaHOZDpTcf73MjukAMFU47oKNIUWsguG2XB5MRkl8WYTC0GC%25252BaXNpenrDS6RugaZqVlVqC%25252FLSL0MsRPTm8nXnLDp2SXJvI3V4JUJQ8%25252FeAxwAXjlHV8WxmiBF%25252BRcDI6C8OwuOBTzheEY5FcSiRT8MqPoSIT02p
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-03-11T02:18:18+08:00 ] 101.226.33.240 /index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-03-11T03:53:59+08:00 ] 183.57.53.196 /VRAppItem/index.php/Backstage/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0004s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 0 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 1 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 4 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 26 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 17 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 16 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 15 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 14 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 13 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 12 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 11 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 10 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 8 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 7 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 6 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 5 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 2 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 25 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 20 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 21 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 3 ORDER BY oid desc  [ RunTime:0.0001s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 27 ORDER BY oid desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: show /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/5dd8ca24044f2c43a9da21692289c5fb.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-11T05:03:45+08:00 ] 183.57.53.197 /index.php/Backstage/Facility
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: field /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: join /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/FacilityController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: page /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/FacilityController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_facility` WHERE `fid` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero /home/wwwroot/default/VRAppItem/ThinkPHP/Library/Think/Page.class.php 第 84 行.
+SQL: SELECT * FROM `vr_facility` WHERE `fid` = 0 ORDER BY oid desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-03-11T05:50:49+08:00 ] 101.226.68.215 /index.php/Backstage/Comment/index/p/500.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/CommentController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/CommentController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_comment` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT vr_comment.id as commentid,vv.v_title as videotitle,vu.username,from_unixtime(time,'%Y-%m-%d %H:%i:%s')time,`content`,`comstatus`,`like` FROM `vr_comment` left join vr_video as vv on vr_comment.resourceid = vv.v_id left join vr_user as vu on vr_comment.userid = vu.id  ORDER BY commentid desc LIMIT 4990,10   [ RunTime:0.0415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-03-11T05:50:58+08:00 ] 101.226.89.116 /index.php/Backstage/Comment/index/p/500.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/CommentController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/default/VRAppItem/VRAppItem/Backstage/Controller/CommentController.class.php 第 38 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_comment` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT vr_comment.id as commentid,vv.v_title as videotitle,vu.username,from_unixtime(time,'%Y-%m-%d %H:%i:%s')time,`content`,`comstatus`,`like` FROM `vr_comment` left join vr_video as vv on vr_comment.resourceid = vv.v_id left join vr_user as vu on vr_comment.userid = vu.id  ORDER BY commentid desc LIMIT 4990,10   [ RunTime:0.0294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-03-11T06:14:09+08:00 ] 180.153.214.176 /index.php/Backstage?nsukey%25253DsUbF1LyBpbgzQ0tc%2525252BCsLSeqLqYk4s1fmPMhdaHOZDpTcf73MjukAMFU47oKNIUWsguG2XB5MRkl8WYTC0GC%2525252BaXNpenrDS6RugaZqVlVqC%2525252FLSL0MsRPTm8nXnLDp2SXJvI3V4JUJQ8%2525252FeAxwAXjlHV8WxmiBF%2525252BRcDI6C8OwuOBTzheEY5FcSiRT8MqPoSIT02p
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-03-11T06:14:09+08:00 ] 180.153.214.176 /index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+

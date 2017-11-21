@@ -1,0 +1,24 @@
+[ 2017-01-18T13:49:23+08:00 ] 192.168.31.145 /VRAppItem/VRAppItem/Api/Videodetail/%20videoDetailPage?id%20=%200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:VRAppItem
+
+[ 2017-01-18T13:50:44+08:00 ] 192.168.31.219 /VRAppItem/VRAppItem/index.php/Api/Videodetail/videoDetailPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:VRAppItem
+
+[ 2017-01-18T13:54:35+08:00 ] 192.168.31.145 /VRAppItem/Uploads/VideoImg/2017-01-10/5874c17089059.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-01-18T13:55:47+08:00 ] 192.168.31.145 /VRAppItem/Public/fZv40A1E5x8s099CFyvW1E214kW23x3LLM2dy4l354h7H97d86E2NTn9vDEz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

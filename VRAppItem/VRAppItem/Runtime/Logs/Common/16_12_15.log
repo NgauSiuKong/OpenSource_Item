@@ -1,0 +1,48 @@
+[ 2016-12-15T10:29:24+08:00 ] ::1 /VRAppItem/index.php/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Member-list
+
+[ 2016-12-15T10:29:24+08:00 ] ::1 /VRAppItem/index.php/member-del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Member-del
+
+[ 2016-12-15T10:29:25+08:00 ] ::1 /VRAppItem/index.php/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Member-level
+
+[ 2016-12-15T10:29:25+08:00 ] ::1 /VRAppItem/index.php/member-scoreoperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Member-scoreoperation
+
+[ 2016-12-15T10:29:26+08:00 ] ::1 /VRAppItem/index.php/member-record-browse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Member-record-browse
+
+[ 2016-12-15T10:29:26+08:00 ] ::1 /VRAppItem/index.php/member-record-download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Member-record-download
+
+[ 2016-12-15T10:29:27+08:00 ] ::1 /VRAppItem/index.php/member-record-share.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Member-record-share
+
+[ 2016-12-15T10:29:27+08:00 ] ::1 /VRAppItem/index.php/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Member-list
+

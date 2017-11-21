@@ -1,0 +1,30 @@
+[ 2017-02-09T14:13:46+08:00 ] ::1 /VRAppItem/index.php/Api/Home/categories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0020s ]
+SQL: SELECT c_id as classId,c_title as classTitle,c_describe as classDsc FROM `vr_class` WHERE `c_status` = 1 AND `c_fid` = 1 ORDER BY c_oid desc  [ RunTime:0.0000s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '4' AND `top` = 1 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '4' AND `top` = 0  [ RunTime:0.0040s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '26' AND `top` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '26' AND `top` = 0  [ RunTime:0.0000s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '12' AND `top` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '12' AND `top` = 0  [ RunTime:0.0000s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '7' AND `top` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT concat('http://192.168.31.220/VRAppItem/Public/',v_firstimgurl)firstImgUrl,concat('http://192.168.31.220/VRAppItem/Public/',v_secondimgurl)secondImgUrl,v_title as title,v_describe as subname,v_id as id,`playnum`,from_unixtime(v_addtime,'%Y-%m-%d')addTime,count(*)comments FROM `vr_video` left join vr_comment vmm on vr_video.v_id = vmm.resourceid  WHERE `v_cid` = '7' AND `top` = 0  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

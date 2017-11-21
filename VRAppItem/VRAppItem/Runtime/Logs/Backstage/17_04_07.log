@@ -1,0 +1,184 @@
+[ 2017-04-07T14:42:15+08:00 ] 116.25.224.221 /VRAppItem/index.php/Backstage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-04-07T14:42:15+08:00 ] 116.25.224.221 /VRAppItem/index.php/Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-04-07T14:43:55+08:00 ] 116.25.224.221 /VRAppItem/index.php/Backstage/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.5999s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.1480s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0575s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.1548s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0259s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 0 ORDER BY oid desc  [ RunTime:0.2293s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 1 ORDER BY oid desc  [ RunTime:0.0004s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 4 ORDER BY oid desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 26 ORDER BY oid desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 17 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 16 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 15 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 14 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 13 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 12 ORDER BY oid desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 11 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 10 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 8 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 7 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 6 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 5 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 2 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 25 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 20 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 21 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 3 ORDER BY oid desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 27 ORDER BY oid desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: show /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/5dd8ca24044f2c43a9da21692289c5fb.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-04-07T14:45:10+08:00 ] 116.25.224.221 /VRAppItem/index.php/Backstage/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0006s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 0 ORDER BY oid desc  [ RunTime:0.0030s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 1 ORDER BY oid desc  [ RunTime:0.0004s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 4 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 26 ORDER BY oid desc  [ RunTime:0.0003s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 17 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 16 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 15 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 14 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 13 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 12 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 11 ORDER BY oid desc  [ RunTime:0.0028s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 10 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 8 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 7 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 6 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 5 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 2 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 25 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 20 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 21 ORDER BY oid desc  [ RunTime:0.0002s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 3 ORDER BY oid desc  [ RunTime:0.0032s ]
+SQL: SELECT `c_id`,`c_fid`,c_oid as oid,`c_title`,`c_describe`,`c_status`,`c_path`,date_format(from_unixtime(c_addtime),'%Y/%m/%d %H:%i:%s')c_addtime FROM `vr_class` WHERE `c_fid` = 27 ORDER BY oid desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: show /home/wwwroot/default/VRAppItem/VRAppItem/Runtime/Cache/Backstage/5dd8ca24044f2c43a9da21692289c5fb.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-04-07T14:45:11+08:00 ] 116.25.224.221 /VRAppItem/index.php/Backstage/CarouselFigure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `vr_carouselfigure` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_class` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `vr_label` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `vr_lab_cla` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_admin` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `vr_video` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `vr_vid_lab` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `vr_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `vr_userdetail` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vr_facility` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `vr_comment` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vr_panorama` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vr_carouselfigure` LIMIT 1   [ RunTime:0.0639s ]
+SQL: SELECT * FROM `vr_carouselfigure` LIMIT 0,8   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
